@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0FA4BA01F186974000C3D53 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FA4B9F1F186974000C3D53 /* Person.swift */; };
 		C0FE6C641F17763600C2E940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6C631F17763600C2E940 /* AppDelegate.swift */; };
 		C0FE6C661F17763600C2E940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE6C651F17763600C2E940 /* ViewController.swift */; };
 		C0FE6C691F17763600C2E940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FE6C671F17763600C2E940 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0FA4B9F1F186974000C3D53 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C0FE6C601F17763600C2E940 /* 7-13-加载百度数据.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7-13-加载百度数据.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FE6C631F17763600C2E940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0FE6C651F17763600C2E940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C0FE6C631F17763600C2E940 /* AppDelegate.swift */,
 				C0FE6C651F17763600C2E940 /* ViewController.swift */,
+				C0FA4B9F1F186974000C3D53 /* Person.swift */,
 				C0FE6C671F17763600C2E940 /* Main.storyboard */,
 				C0FE6C6A1F17763600C2E940 /* Assets.xcassets */,
 				C0FE6C6C1F17763600C2E940 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FA4BA01F186974000C3D53 /* Person.swift in Sources */,
 				C0FE6C661F17763600C2E940 /* ViewController.swift in Sources */,
 				C0FE6C641F17763600C2E940 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				C0FE6C8A1F17763600C2E940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FE6C8B1F17763600C2E940 /* Build configuration list for PBXNativeTarget "7-13-加载百度数据Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C0FE6C8D1F17763600C2E940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FE6C8E1F17763600C2E940 /* Build configuration list for PBXNativeTarget "7-13-加载百度数据UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C0FE6C901F17763600C2E940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
